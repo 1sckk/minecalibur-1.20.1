@@ -12,7 +12,8 @@ import xyz.notgorgo.MineCalibur;
 
 public class ModItems {
 
-    public static final Item SWORD = registerItem("sword_of_setuska", new Item(new FabricItemSettings()));
+    public static final Item SWORD = registerItem("sword",
+            new Item(new FabricItemSettings().maxCount(1)));
 
 
 
